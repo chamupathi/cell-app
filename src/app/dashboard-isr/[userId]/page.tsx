@@ -15,8 +15,8 @@ export default async function DashboardPage({ params }: { params: Promise<{ user
 
     const date = new Date()
     return <main className="flex flex-col flex-start">
-        <div className="flex flex-row flex-start pr-6 pl-6">
-            <div className="flex flex-col flex-start w-64 bg-gray-200">
+        <div className="flex flex-row flex-start pr-6">
+            <div className="flex flex-col flex-start w-64 bg-gray-200 pl-6">
                 <Link href="/dashboard">Dashboard</Link>
                 <Link href="/dashboard-isr" className="text-blue-600 bold">Dashboard ISR</Link>
             </div>
